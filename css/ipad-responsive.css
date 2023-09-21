@@ -1,0 +1,23 @@
+/* FOR RESPONSIVENESS */
+
+.about-image img{
+    width: 60vw;
+}
+.about-text{
+    margin: 5px;
+    font-size: smaller;
+}
+
+.skill-item{
+    padding: 0%;
+}
+.skill-head{
+    color: var(--text-color);
+}
+
+.about{
+    flex-direction: column;
+}
+/* .contact{
+    height: 70vh;
+} */

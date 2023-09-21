@@ -1,0 +1,140 @@
+/* FOR RESPONSIVENESS OF PHONE */
+
+:root{
+    --bg-color: #1a1a1a;
+    --bg2-color: #070607;
+    --text-color: rgb(255, 115, 0);
+    --text-color2: rgb(223, 227, 230);
+}
+
+/* h1,
+h3{
+    margin: 5px;
+    padding: 5px;
+} */
+h1{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 30px;
+}
+.top-navbar{
+    /* height: 100px; */
+}
+
+/* .main-section{
+    font-size: smaller;
+} */
+
+.main-item{
+    margin: 2px 15px;
+}
+
+/* .about{
+    height: 110vh;
+} */
+
+.about-image img{
+    width: 80vw;
+    margin: 10px;
+}
+
+.about-text{
+    margin: 5px;
+    font-size: smaller;
+}
+
+.skill-item{
+    padding: 0%;
+}
+.skill-head{
+    color: var(--text-color);
+}
+
+.services-container{
+    flex-direction: column;
+}
+
+.cont{
+    width: 85vw;
+    /* height: 15vh; */
+}
+
+.cont-para{
+    font-size: small;
+}
+
+.cont-header{
+    /* margin-top: 5vh; */
+}
+
+.project-box1,
+.project-box2{
+    flex-direction: column;
+}
+
+/* .portfolio{
+    height: 170vh;
+} */
+
+
+
+.inner-box{
+    height: 0;
+    /* flex-direction: row; */
+    width: 100%;
+}
+.inner-box:hover{
+    height: 100%;
+    width: 80vw;
+}
+
+.contact{
+    /* height: 80vh; */
+    margin: 10vh 10vw;
+}
+
+.contact textarea,
+.contact input{
+    width: 60vw;
+}
+
+.p-box{
+    width: 80vw;
+}
+
+.hide{
+    display: none;
+    height: 0vh;
+}
+
+.h-increase{
+    height: 50vh;
+    transition: all 0.5s ease-in;
+}
+
+.m-navitem{
+    margin: 20px auto;
+    transition: all 0.3s ease-in;
+}
+
+.show-nav{
+    display: block;
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+}
+
+.burger{
+    display: block;
+}
+
+.burgerc{
+    /* display: block; */
+    position: absolute;
+    top: 3vh;
+    right: 3vh;
+}
+
+.contact-boxes{
+    flex-direction: column;
+}
