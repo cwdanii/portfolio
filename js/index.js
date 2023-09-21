@@ -1,4 +1,4 @@
-console.log('hello bhai')
+console.log('JS running')
 const navbar = document.querySelector(".top-navbar")
 
 // SCROLL TO CHANGE NNAVBAR COLOUR 
@@ -8,7 +8,16 @@ window.addEventListener('scroll', ()=>{
     // console.log('ho gaya bhai')
     // navbar.classList.toggle('remove-bg', window.scrollY > 100)
     navbar.classList.toggle("remove-bg", window.scrollY > 100);
-    // navbar.classList.toggle("ad-padding", window.scrollY > 100);
+    
+    // on scroll close menu
+
+    // navul.classList.remove('show-nav');
+    // burger.classList.remove('burgerc');
+    // header.classList.remove(`hide`);
+    // l1.classList.remove(`line1`);
+    // l2.classList.remove(`line2`);
+    // l3.classList.remove(`line3`);
+    // navbar.classList.remove('h-increase');
 })
 
 const items = document.getElementsByTagName('a');
@@ -33,14 +42,23 @@ const navul = document.querySelector(".nav-ul")
 const navitem = document.querySelectorAll("navitem")
 
 
+// Burger lines
+const l1 = document.getElementById("l1")
+const l2 = document.getElementById("l2")
+const l3 = document.getElementById("l3")
+
+
 // CLICK EVENT ON BURGER 
 
 
 burger.addEventListener('click', ()=>{
-    navul.classList.toggle('show-nav');
     // navitem.classList.toggle(`m-navitem`);
-    burger.classList.toggle('burgerc')
-    header.classList.toggle(`hide`)
+    navul.classList.toggle('show-nav');
+    burger.classList.toggle('burgerc');
+    header.classList.toggle(`hide`);
+    l1.classList.toggle(`line1`);
+    l2.classList.toggle(`line2`);
+    l3.classList.toggle(`line3`);
     navbar.classList.toggle('h-increase');
     // burger.classList.toggle('burger-h');
     // window.addEventListener('scroll', ()=>{
@@ -62,6 +80,9 @@ item1.addEventListener('click', ()=>{
     // navitem.classList.toggle(`m-navitem`);
     header.classList.toggle(`hide`)
     navbar.classList.toggle('h-increase');
+    l1.classList.toggle(`line1`);
+    l2.classList.toggle(`line2`);
+    l3.classList.toggle(`line3`);
 })
 
 item2.addEventListener('click', ()=>{
@@ -70,6 +91,9 @@ item2.addEventListener('click', ()=>{
     // navitem.classList.toggle(`m-navitem`);
     header.classList.toggle(`hide`)
     navbar.classList.toggle('h-increase');
+    l1.classList.toggle(`line1`);
+    l2.classList.toggle(`line2`);
+    l3.classList.toggle(`line3`);
 })
 
 item3.addEventListener('click', ()=>{
@@ -78,6 +102,9 @@ item3.addEventListener('click', ()=>{
     // navitem.classList.toggle(`m-navitem`);
     header.classList.toggle(`hide`)
     navbar.classList.toggle('h-increase');
+    l1.classList.toggle(`line1`);
+    l2.classList.toggle(`line2`);
+    l3.classList.toggle(`line3`);
 })
 
 item4.addEventListener('click', ()=>{
@@ -86,6 +113,9 @@ item4.addEventListener('click', ()=>{
     // navitem.classList.toggle(`m-navitem`);
     header.classList.toggle(`hide`)
     navbar.classList.toggle('h-increase');
+    l1.classList.toggle(`line1`);
+    l2.classList.toggle(`line2`);
+    l3.classList.toggle(`line3`);
 })
 
 

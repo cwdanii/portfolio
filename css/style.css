@@ -43,6 +43,7 @@ h3{
     justify-content: flex-start;
     align-items: center;
     padding: 10px 105px;
+    transition: all .5s ease;
 }
 .top-navbar a{
     color: var(--text-color2);
@@ -86,10 +87,11 @@ h3{
 }
 .line{
     width: 33px;
-    margin: 5px 2px;
+    margin: 4px 2px;
     height: 5px;
     background-color: var(--text-color2);
-    border-radius: 5px;
+    border-radius: 3px;
+    transition: all .3s ease;
 }
 
 /* MAIN/HOME-SECTION */

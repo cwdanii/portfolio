@@ -120,7 +120,24 @@ h3{
 }
 
 .burger{
-    display: block;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.line1{
+    margin: 0px;
+    transform: rotate(45deg) translate(3px, 0);
+}
+
+.line3{
+    margin: 0px;
+    transform: rotate(-45deg) translate(3px, 0);
+}
+
+.line2{
+    display: none;
 }
 
 .burgerc{
