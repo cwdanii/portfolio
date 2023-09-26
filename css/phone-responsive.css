@@ -45,9 +45,7 @@ h3{
 .skill-item{
     padding: 0%;
 }
-.skill-head{
-    color: var(--text-color);
-}
+
 
 .services-container{
     flex-direction: column;

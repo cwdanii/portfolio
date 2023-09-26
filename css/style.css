@@ -188,10 +188,14 @@ h3{
     margin-right: 80px;
     padding: 30px;
 }
+
 .skill-item{
     padding: 2px 10px;
     font-size: smaller;
     color: rgb(190, 201, 210);
+}
+.skill-head{
+    color: var(--text-color);
 }
 .head{
     margin: 20px 0px;
