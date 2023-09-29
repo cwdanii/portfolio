@@ -15,6 +15,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <!-- Link of AOS Animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Script for EmailJS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -22,7 +25,7 @@
             emailjs.init("pGTXBZ1LL83oblJWq");
         })();
     </script>
-    
+
 </head>
 
 <body>
@@ -57,7 +60,7 @@
         <h3 class="main-item">Full Stack <span class="org">Web Developer</span></h3>
         <p class="main-item">And I have a good grasp of <span class="org"> HTML, CSS, Javascript</span> And <span
                 class="org">Node.js</span> </p>
-        <div class="button-item">
+        <div class="button-item" data-aos="fade-in">
             <span class="btn"><a href="./Resume/Danyal khan Resume.pdf" target="_blank"> Download Resume</span></a>
             <span class="btn btn1"><a href="#contact"> Say Hello</span></a>
             <a href="#portfolio"><img src="./images/circleplay.svg" class="icon-img" alt=""></a>
@@ -69,11 +72,11 @@
     <!-- ABOUT SECTION STARTS HERE -->
     <setion id="about" class="about">
 
-        <div class="about-image">
+        <div class="about-image" data-aos="zoom-in-right" data-aos-duration="1000">
             <img src="./images/mainabout.jpg" alt="">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-right">
             <h3 class="head">About <span class="org">Me</span></h3>
             <h4>I am Creative Designer And Full Stack Developer!</h4>
             <p class="info">From Pakistan, Based in Nowshera</p>
@@ -114,17 +117,17 @@
             <h3><span class="org">My</span> Services</h3>
         </div>
         <div class="services-container">
-            <div class="cont cont-1">
+            <div class="cont cont-1" data-aos="zoom-in-right" data-aos-offset="50">
                 <h4 class="cont-header">Web Design</h4>
                 <p class="cont-para">Good web designs gives standerds to your website. I will take your website to the
                     next level and modern looking</p>
             </div>
-            <div class="cont cont-2">
+            <div class="cont cont-2" data-aos="zoom-in-right" data-aos-offset="50">
                 <h4 class="cont-header">Web Development</h4>
                 <p class="cont-para">Convert Your idea to a fully legit website. I will help you to fullfill your dream
                 </p>
             </div>
-            <div class="cont cont-3">
+            <div class="cont cont-3" data-aos="zoom-in-right" data-aos-offset="50">
                 <h4 class="cont-header">Creative Design</h4>
                 <p class="cont-para">Brand your business with unique and professional designs. I will create a creative
                     designs for you</p>
@@ -143,7 +146,8 @@
         </div>
         <div class="project-box">
             <div class="project-box1">
-                <a href="https://designed-by-danyal-khan.netlify.app" target="_blank">
+
+                <a href="https://designed-by-danyal-khan.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="web-design">
                         <h4 class="box-heading">Modern Website Design</h4>
                         <div class="inner-box">
@@ -153,7 +157,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://wheather-of-everycity.netlify.app/" target="_blank">
+
+                <a href="https://wheather-of-everycity.netlify.app/" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="wheather">
                         <h4 class="box-heading">Wheather checker</h4>
                         <div class="inner-box">
@@ -164,7 +169,7 @@
                     </div>
                 </a>
 
-                <a href="https://danimusic.netlify.app/" target="_blank">
+                <a href="https://danimusic.netlify.app/" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="dani-music">
                         <h4 class="box-heading">Music App of Nasheed-mp3</h4>
                         <div class="inner-box">
@@ -173,9 +178,11 @@
                         </div>
                     </div>
                 </a>
+                
             </div>
             <div class="project-box2">
-                <a href="https://tic-tac-toe-dani.netlify.app" target="_blank">
+
+                <a href="https://tic-tac-toe-dani.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="tik-tac">
                         <h4 class="box-heading">Game: Tik-tac game</h4>
                         <div class="inner-box">
@@ -185,7 +192,7 @@
                     </div>
                 </a>
 
-                <a href="https://calculate-me-dani.netlify.app" target="_blank">
+                <a href="https://calculate-me-dani.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="calculate">
                         <h4 class="box-heading">calculate-online</h4>
                         <div class="inner-box">
@@ -208,7 +215,7 @@
         <h3 class="h-primery center">Contact <span class="org">me</span></h3>
 
         <div class="contact-boxes">
-            <div class="social-icons">
+            <div class="social-icons" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="120">
 
                 <div class="ew-box">
                     <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
@@ -280,6 +287,12 @@
     </footer>
 
     <script src="./js/index.js"></script>
+
+    <!-- /// Script of AOS animation /// -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

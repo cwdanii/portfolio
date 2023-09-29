@@ -218,10 +218,11 @@ h3{
     justify-content: center;
 }
 .cont{
-    width: 20vw;
+    width: 20%;
     height: 20vh;
+    font-size: 0.8rem;
     margin: 20px;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,6 +295,7 @@ h3{
 
 .inner-box{
     display: flex;
+    height: 0%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -318,12 +320,13 @@ h3{
 .inner-box:hover{
     opacity: 1;
     height: 100%;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .box-p,
 .box-p2{
     font-size: small;
+    font-size: 0.6rem;
 }
 
 #calculate{
