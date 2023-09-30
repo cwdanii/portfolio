@@ -167,20 +167,23 @@ h3{
 }
 
 .home-icon::after{
-    content: "\e1b0";
+    font-family: "Font Awesome 5 Free";
+    /* content: "\e1b0"; */
 }
 
 .about-icon::after{
     font-family: "Font Awesome 5 Free";
-    content: "\f007";
+    /* content: "\f007"; */
 }
 
 .portfolio-icon::after{
-    content: "\f0b1";
+    font-family: "Font Awesome 5 Free";
+    /* content: "\f0b1"; */
 }
 
 .contact-icon::after{
-    content: "\e527";
+    font-family: "Font Awesome 5 Free";
+    /* content: "\e527"; */
     /* content: "\e527"; */
 }
 
