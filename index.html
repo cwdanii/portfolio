@@ -14,6 +14,9 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- font awesome icons link -->
+    <script src="https://kit.fontawesome.com/3d2d2ff7e7.js" crossorigin="anonymous"></script>
+
 
     <!-- Link of AOS Animation  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -34,10 +37,10 @@
     <nav class="top-navbar">
         <h3 class="nav-header">Cod<span class="org">e</span>r</h3>
         <ul class="hide nav-ul">
-            <li class="navitem m-navitem"><a href="#main-section" class="active" id="anchor1">Home</a> </li>
-            <li class="navitem m-navitem"><a href="#about" class="anchor-item" id="anchor2">About me</a> </li>
-            <li class="navitem m-navitem"><a href="#portfolio" class="anchor-item" id="anchor3">Portfolio</a> </li>
-            <li class="navitem m-navitem"><a href="#contact" class="anchor-item" id="anchor4">Contact me</a> </li>
+            <li class="navitem m-navitem  home-icon add-icon"><a href="#main-section" class="active" id="anchor1">Home</a> </li>
+            <li class="navitem m-navitem  about-icon add-icon"><a href="#about" class="anchor-item" id="anchor2">About me</a> </li>
+            <li class="navitem m-navitem  portfolio-icon add-icon"><a href="#portfolio" class="anchor-item" id="anchor3">Portfolio</a> </li>
+            <li class="navitem m-navitem  add-icon contact-icon"><a href="#contact" class="anchor-item" id="anchor4">Contact me</a> </li>
         </ul>
 
         <div class="burger">
@@ -61,8 +64,8 @@
         <p class="main-item">And I have a good grasp of <span class="org"> HTML, CSS, Javascript</span> And <span
                 class="org">Node.js</span> </p>
         <div class="button-item" data-aos="fade-in">
-            <span class="btn btn-download"><a href="./Resume/Danyal khan Resume.pdf" target="_blank"> Download Resume <i class="fa-solid fa-download"></i></span></a>
-            <span class="btn btn1"><a href="#contact"> Say Hello <i class="fa-solid fa-hand-sparkles"></i> </span></a>
+            <span class="btn resume-icon add-icon"><a href="./Resume/Danyal khan Resume.pdf" target="_blank"> Download Resume</a></span>
+            <span class="btn hello-icon add-icon"><a href="#contact"> Say Hello</a></span>
             <a href="#portfolio"><img src="./images/circleplay.svg" class="icon-img" alt=""></a>
             <span class="btn2">Watch my work</span>
         </div>
@@ -147,7 +150,8 @@
         <div class="project-box">
             <div class="project-box1">
 
-                <a href="https://designed-by-danyal-khan.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
+                <a href="https://designed-by-danyal-khan.netlify.app" target="_blank" data-aos="zoom-in-up"
+                    data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="web-design">
                         <h4 class="box-heading">Modern Website Design</h4>
                         <div class="inner-box">
@@ -158,7 +162,8 @@
                     </div>
                 </a>
 
-                <a href="https://wheather-of-everycity.netlify.app/" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
+                <a href="https://wheather-of-everycity.netlify.app/" target="_blank" data-aos="zoom-in-up"
+                    data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="wheather">
                         <h4 class="box-heading">Wheather checker</h4>
                         <div class="inner-box">
@@ -169,7 +174,8 @@
                     </div>
                 </a>
 
-                <a href="https://danimusic.netlify.app/" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
+                <a href="https://danimusic.netlify.app/" target="_blank" data-aos="zoom-in-up" data-aos-duration="700"
+                    data-aos-offset="50">
                     <div class="p-box" id="dani-music">
                         <h4 class="box-heading">Music App of Nasheed-mp3</h4>
                         <div class="inner-box">
@@ -178,11 +184,12 @@
                         </div>
                     </div>
                 </a>
-                
+
             </div>
             <div class="project-box2">
 
-                <a href="https://tic-tac-toe-dani.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
+                <a href="https://tic-tac-toe-dani.netlify.app" target="_blank" data-aos="zoom-in-up"
+                    data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="tik-tac">
                         <h4 class="box-heading">Game: Tik-tac game</h4>
                         <div class="inner-box">
@@ -192,7 +199,8 @@
                     </div>
                 </a>
 
-                <a href="https://calculate-me-dani.netlify.app" target="_blank" data-aos="zoom-in-up" data-aos-duration="700" data-aos-offset="50">
+                <a href="https://calculate-me-dani.netlify.app" target="_blank" data-aos="zoom-in-up"
+                    data-aos-duration="700" data-aos-offset="50">
                     <div class="p-box" id="calculate">
                         <h4 class="box-heading">calculate-online</h4>
                         <div class="inner-box">
@@ -274,7 +282,7 @@
                     <h4 for="message">Message</h4>
                     <textarea class="form-control" id="message" rows="3" placeholder="Type anything"></textarea>
                 </div>
-                <button class="btn" onclick="sendMail()">Submit</button>
+                <button class="btn add-icon send-icon" onclick="sendMail()">Send Message</button>
             </div>
         </div>
     </section>

@@ -121,6 +121,9 @@ h3{
 .org{
     color: var(--text-color);
 }
+
+/* /// .btn & .add-icon is a global class */
+
 .btn{
     background-color: var(--text-color);
     color: var(--bg2-color);
@@ -140,9 +143,50 @@ h3{
 
 .btn:hover{
     transform: scale(0.9);
-    color: var(--text-color2);
+    /* color: var(--text-color2); */
 }
 
+.add-icon::after{
+    font-family: "Font Awesome 5 Free";
+    /* content: "\f019"; */
+    display: none;
+    padding-left: 3px;
+    transition: all .5s ease;
+}
+
+.add-icon:hover::after{
+    display: inline-block;
+}
+
+.resume-icon::after{
+    content: "\f019";
+}
+
+.hello-icon::after{
+    content: "\e05d";
+}
+
+.home-icon::after{
+    content: "\e1b0";
+}
+
+.about-icon::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+}
+
+.portfolio-icon::after{
+    content: "\f0b1";
+}
+
+.contact-icon::after{
+    content: "\e527";
+    /* content: "\e527"; */
+}
+
+.send-icon::after{
+    content: "\f1d8";
+}
 
 .button-item{
     display: flex;
