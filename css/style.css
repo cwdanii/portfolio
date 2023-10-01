@@ -103,7 +103,7 @@ h3{
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    background: url(../images/homebg2.17.jpg) no-repeat center center/cover;
+    background: url(../images/homebg2.17.avif) no-repeat center center/cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* color: rgb(255, 115, 0); */
     color: var(--text-color2);
@@ -379,23 +379,23 @@ h3{
 }
 
 #calculate{
-    background: rgb(93, 93, 93) url(../images/calculator.png)no-repeat center center/cover;
+    background: rgb(93, 93, 93) url(../images/calculator.avif)no-repeat center center/cover;
     background-blend-mode: darken;
 }
 #web-design{
-    background: rgb(93, 93, 93) url(../images/web-design.png)no-repeat center center/cover;
+    background: rgb(93, 93, 93) url(../images/web-design.avif)no-repeat center center/cover;
     background-blend-mode: darken;
 }
 #dani-music{
-    background: rgb(93, 93, 93) url(../images/dani-music.png)no-repeat center center/cover;
+    background: rgb(93, 93, 93) url(../images/dani-music.avif)no-repeat center center/cover;
     background-blend-mode: darken;
 }
 #tik-tac{
-    background: rgb(93, 93, 93) url(../images/tik-tac.png)no-repeat center center/cover;
+    background: rgb(93, 93, 93) url(../images/tik-tac.avif)no-repeat center center/cover;
     background-blend-mode: darken;
 }
 #wheather{
-    background: rgb(93, 93, 93) url(../images/wheather.png)no-repeat center center/cover;
+    background: rgb(93, 93, 93) url(../images/wheather.avif)no-repeat center center/cover;
     background-blend-mode: darken;
 }
 
