@@ -128,8 +128,18 @@ function sendMail() {
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
-  
-    const serviceID = "service_nu7c1va";
+
+    if(document.getElementById("name").value == ""){
+        alert("Please Enter Your Name")
+    }
+    else if(document.getElementById("email").value == "") {
+        alert("Please Enter Your Email too")
+    }
+    else if(document.getElementById("message").value == ""){
+        alert("I Would Like if You Say Something in the Message Box")
+    }
+    else{
+        const serviceID = "service_nu7c1va";
     const templateID = "template_qxydo5h";
   
       emailjs.send(serviceID, templateID, params)
@@ -138,9 +148,12 @@ function sendMail() {
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
           console.log(res);
-          alert("Your message sent successfully!!")
+          alert(`"Thanks for your message" Your message has been sent successfully!!`)
   
       })
       .catch(err=>console.log(err));
+    }
+  
+    
   
   }
