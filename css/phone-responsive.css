@@ -103,6 +103,7 @@ h3{
 
 .h-increase{
     height: 50vh;
+    background-color: var(--bg2-color);
     transition: all 0.5s ease-in;
 }
 
@@ -120,6 +121,9 @@ h3{
 .burger{
     /* display: block; */
     display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
     flex-direction: column;
 }
 
