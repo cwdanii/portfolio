@@ -102,18 +102,26 @@ h3{
 }
 
 .h-increase{
+<<<<<<< HEAD
     height: 50vh;
     background-color: var(--bg2-color);
+=======
+    height: 100vh;
+>>>>>>> 61ac0297bc2359bc37b4b210cb3bc553a9d79d92
     transition: all 0.5s ease-in;
 }
 
 .m-navitem{
     margin: 20px auto;
+    font-size: 30px;
     transition: all 0.3s ease-in;
 }
 
 .show-nav{
-    display: block;
+    /* height: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     transition: all 0.5s ease-in;
 }
