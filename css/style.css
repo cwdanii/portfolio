@@ -22,6 +22,11 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color2);
 }
+/* For hiding scroll bar */
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1{
     font-size: 2.5rem;
 }
@@ -30,7 +35,12 @@ h3{
 }
 
 /* TOP NAVBAR */
+header{
+    width: 100vw;
+}
+
 .top-navbar{
+    /* width: 100%; */
     z-index: 1;
     position: sticky;
     top: 0px;
