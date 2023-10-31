@@ -451,7 +451,19 @@ header{
     border-radius: 10px;
     margin: 20px 10px;
 }
-.social-icons a{
+
+.email-line a{
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.5s ease;
+}
+
+.email-line a:hover{
+    color: var(--text-color2);
+    padding: 3px;
+}
+
+.media-icons a{
     /* display: block; */
     margin: 5px;
     text-decoration: none;
@@ -462,11 +474,12 @@ header{
     padding: 2px 5px;
     transition: all 0.5s ease;
 }
-.social-icons a:hover{
+.media-icons a:hover{
     background-color: var(--text-color);
     color: var(--bg2-color);
     font-size: 28px;
 }
+
 .contact-line{
     font-size: 12px;
     display: none;
