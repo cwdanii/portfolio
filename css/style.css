@@ -68,9 +68,10 @@ header{
     color: var(--text-color);
 }
 
-/* .nav-header span{
-    color: var(--text-color);
-} */
+.nav-header{
+    /* color: var(--text-color); */
+    font-size: large;
+}
 
 
 .nav-ul{
